@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient( 110.3deg,  rgba(72,85,99,1) 8.8%, rgba(127,146,166,1) 95.1% );
+}
+#header{
+    background-image: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, rgba(53,92,125,1) 88.8% );
+    width:98.4%;
+    height:25%;
+    float:center;
+    font-size:40;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:15px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color:rgb(121, 0, 0);
+}
+#main{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    background-color: #4158D0;
+    background-image: radial-gradient( circle 263px at 100.2% 3%,  rgba(12,85,141,1) 31.1%, rgba(205,181,93,1) 36.4%, rgba(244,102,90,1) 50.9%, rgba(199,206,187,1) 60.7%, rgba(249,140,69,1) 72.5%, rgba(12,73,116,1) 72.6% );
+    width:98.4%;
+    height:15%;
+    float:center;
+    font-size:90;
+    font-weight: bold;
+    text-align: center;
+    padding:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ul{
+    list-style-type:disc;
+}
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    position: relative;
+  }
+  
+  a:after {
+    border-radius: 1em;
+    border-top: .1em solid #1201ff;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: .14em;
+      left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+  }
+  
+  a:hover:after {
+    right: 0;
+  }
+  #nav{
+    width: 98.4%;
+    height:50%;
+    float:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 55;
+    color:cyan;
+    font-weight: bold;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:15px;
+}

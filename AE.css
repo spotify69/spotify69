@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient( 122.3deg,  rgba(111,71,133,1) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,1) 84.8% );
+}
+#header{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21.8%, rgba(189,250,205,1) 35.6%, rgba(243,250,189,1) 52.9%, rgba(250,227,189,1) 66.8%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99.7% );
+    width:98.4%;
+    height:25%;
+    float:center;
+    font-size:40;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:15px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color:rebeccapurple;
+}
+#main{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    background-color: #4158D0;
+    background-image: linear-gradient( 90.9deg,  rgba(255,187,187,1) -8.8%, rgba(255,220,177,1) 12.4%, rgba(255,249,177,1) 35.6%, rgba(220,255,177,1) 59.6%, rgba(177,218,255,1) 84%, rgba(222,177,255,1) 107.9% );
+    width:98.4%;
+    height:15%;
+    float:center;
+    font-size:90;
+    font-weight: bold;
+    text-align: center;
+    padding:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ul{
+    list-style-type:disc;
+}
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    position: relative;
+  }
+  
+  a:after {
+    border-radius: 1em;
+    border-top: .1em solid #1201ff;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: .14em;
+      left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+  }
+  
+  a:hover:after {
+    right: 0;
+  }
+  #nav{
+    width: 98.4%;
+    height:50%;
+    float:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 55;
+    color:cyan;
+    font-weight: bold;
+    background-image: linear-gradient( 102.7deg,  rgba(253,218,255,1) 8.2%, rgba(223,173,252,1) 19.6%, rgba(173,205,252,1) 36.8%, rgba(173,252,244,1) 73.2%, rgba(202,248,208,1) 90.9% );
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:15px;
+}
